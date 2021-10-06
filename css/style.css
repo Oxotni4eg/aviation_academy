@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+h2 {
+    margin-left: 20px;
+    padding: 10px 0 10px 0;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 47px;
+}
+
+h4 {
+    color: white;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+h5 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 23px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    max-width: 1438px;
+    background-color: #E5E5E5;
+}
+
+.all-news {
+    margin-left: 35px;
+    display: flex;
+    padding-bottom: 100px;
+}
+
+.news {
+    width: 85%;
+}
+
+.date-btn {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.date {
+    color: white;   
+}
+
+.btn {
+    padding: 5px;
+    font-weight: 300;
+    cursor: pointer;
+    border: none;
+}
+
+.other-news {
+    width: 15%;
+    margin-top: 10px;
+    display: flex;
+}
+
+.other-news h5,
+.other-news p,
+.other-news .date-btn {
+    margin-left: 20px;
+}
+
+.other-news img {
+    width: 320px;
+    height: 200px;
+}
+
+.other-news p {
+    margin-top: 5px;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 25px;
+}
+
+.other-news .date-btn {
+    flex: auto;
+}
+
+.other-news .date-btn .date {
+    color: black;
+}
+
+.other-news .btn {
+    color: black;
+    background: rgba(48, 63, 134, 0.5);
+}
+
+.other-news .btn:hover {
+    border: none;
+    background: rgba(48, 63, 134, 0.8);
+}
+
+.main-news {
+    display: flex;
+}
+
+.left-main-news {
+    width: 50%;
+    padding: 25px;
+    margin: 10px 0 10px 0;
+    background: rgba(48, 63, 134, 0.8);
+}
+
+.left-main-news p {
+    margin-top: 20px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.left-main-news .date-btn .btn:hover {
+    border: none;
+    background: gray;
+}
+
+.right-main-news {
+    width: 50%;  
+    padding: 10px;  
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background-color: #E5E5E5;
+    z-index: 2;
+}
+
+.right-main-news img {
+    height: 100%;
+    width: 100%;    
+}
+
+.left-other-news,
+.center-other-news,
+.right-other-news {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.center-other-news {
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+.right-other-news {
+    padding-right: 20px;
+}
+
+.timeline {
+    display: flex;
+    flex-direction: column;
+}
+
+.timeline .news-headers {
+    background: rgba(48, 63, 134, 0.2);
+    margin-left: -10px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+.news-headers a {
+    font-size: 16px;
+    line-height: 19px;
+    margin-bottom: 10px;
+    color: black;
+    font-weight: bold;
+}
+
+.news-headers .date-btn {
+    margin-bottom: 20px;
+}
+
+.news-headers .date-btn .date {
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.news-headers .date-btn .btn {
+    color: rgba(0, 0, 0, 0.5);
+    width: 125px;
+    height: 30px;
+    background: rgba(243, 243, 243, 0.5);
+    margin-right: 60px;
+} 
+
+.news-headers .date-btn .btn:hover,
+.news-headers .date-btn .btn:active,
+.news-headers .date-btn .btn:focus{
+    background: gray;
+    border: none;
+}
+
+.news-headers li:last-child {
+    padding-bottom: 25px;
+}
+
+.news-headers li:last-child a {
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);    
+}
+
+.news-headers li:last-child a::after {
+    content: '\27F6';
+    color: rgba(0, 0, 0, 0.5); 
+    margin-left: 20px;
+} 
+
+.timeline .menu {    
+    flex: auto;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.timeline .menu li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+
+
+
+
