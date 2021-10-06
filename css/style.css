@@ -47,7 +47,7 @@ a:hover {
 }
 
 .container {
-    width: 80%;
+/*     width: 80%; */
     margin: 0 auto;
     max-width: 1438px;
     background-color: #E5E5E5;
